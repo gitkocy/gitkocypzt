@@ -1,3 +1,6 @@
+# FORK
+Gitkocy Piosenka z Tekstem, fork z własnymi, eksperymentalnymi zmianami.
+
 # Piosenka z tekstem
 
 Kod źródłowy i zawartość strony internetowej [piosenkaztekstem.pl](https://www.piosenkaztekstem.pl).

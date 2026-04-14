@@ -7,10 +7,10 @@ image_full: https://raw.githubusercontent.com/gitkocy/gitkocypzt/refs/heads/main
 image_thumb: https://raw.githubusercontent.com/gitkocy/gitkocypzt/refs/heads/main/fotki/witkocy1.jpg
 ---
 
-Kompozytor, poeta, muzykolog, multiinstrumentalista.
+Kompozytor, poeta, instrumentalista, aranżer.
 
-Urodzony w 2005 roku w Zamościu, debiutował na **Przeglądzie Poezji Śpiewanej w Terespolu w 2023**. Zajmuje się pisaniem piosenek i kompozycji instrumentalnych, głównie na gitarze klasycznej i pianinie.
+Urodzony w 2005 roku w Zamościu, debiutował na **Przeglądzie Poezji Śpiewanej w Terespolu w 2023 roku**. Zajmuje się pisaniem piosenek i kompozycji instrumentalnych, głównie na gitarze klasycznej i pianinie.
 
-Tworzy również **opracowania nutowe utworów** [tria Kaczmarski-Gintrowski-Łapiński](http://www.piosenkaztekstem.pl/spiewnik/kaczmarski\-gintrowski\-lapinski/).
+Tworzy opracowania nutowe utworów [tria Kaczmarski-Gintrowski-Łapiński](http://www.piosenkaztekstem.pl/spiewnik/kaczmarski\-gintrowski\-lapinski/).
 
-Wykonuje swoje utwory solowo, ale na scenie występuje zwykle jako **akompaniator** z innymi muzykami.
+Wykonuje swoje utwory solowo, ale na scenie występuje zwykle jako akompaniator z innymi muzykami.

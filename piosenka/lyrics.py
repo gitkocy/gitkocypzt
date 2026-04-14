@@ -1,4 +1,4 @@
-""" Parsing and rendering of song lyrics. """
+"""Parsing and rendering of song lyrics."""
 
 from django.template import Context, loader
 
@@ -56,8 +56,7 @@ def parse_lyrics(raw_lyrics):
             # Start replaying.
             if len(line) == 1:
                 raise SyntaxError(
-                    "Section reference tag (for example '@zw') can't have empty "
-                    "name."
+                    "Section reference tag (for example '@zw') can't have empty name."
                 )
             if not line[1:] in recordings:
                 raise SyntaxError(

@@ -1,15 +1,15 @@
 ---
 title: 'Huj'
-author: 'Gitkocy'
+author: 'Witkocy'
 pub_date: '2013-05-17 22:10:03.272124+00:00'
 youtube_id: '2Tqf3a1_PLI'
 capo_fret: 2
 text_authors:
- - '1gitkocy'
+ - 'witkocy'
 composers:
- - '1gitkocy'
+ - 'witkocy'
 performers:
- - '1gitkocy'
+ - 'witkocy'
 score1: scores/szulerzy.png
 score1_full: https://storage.googleapis.com/piosenka-media/media/scores/szulerzy.png
 score1_thumb: https://storage.googleapis.com/piosenka-media/media/scores/szulerzy.png.180x0_q85_upscale.jpg

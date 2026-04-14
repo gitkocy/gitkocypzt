@@ -3,8 +3,7 @@ from django.conf.urls.static import static
 from django.urls import include, re_path
 from django.views.generic import TemplateView
 
-urlpatterns = [
-]
+urlpatterns = []
 
 if settings.DEBUG:
     urlpatterns += (

@@ -16,7 +16,6 @@ class StaticPageFallbackMiddleware:
         # 2. The request path ends with a '/' (indicating a directory)
         # 3. An index.html file exists in the corresponding directory
         if response.status_code == 404 and request.path.endswith("/"):
-
             index_path = os.path.join(
                 settings.PZT_STATICPAGE_DIR, request.path.lstrip("/"), "index.html"
             )

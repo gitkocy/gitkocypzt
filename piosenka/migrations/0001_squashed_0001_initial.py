@@ -9,8 +9,7 @@ import piosenka.models
 
 
 class Migration(migrations.Migration):
-
-    replaces = [('piosenka', '0001_initial')]
+    replaces = [("piosenka", "0001_initial")]
 
     initial = True
 
@@ -20,27 +19,62 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Invitation',
+            name="Invitation",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('email_address', models.EmailField(max_length=254)),
-                ('invitation_key', models.CharField(default=piosenka.models._get_default_invitation_key, editable=False, max_length=70)),
-                ('expires_on', models.DateTimeField(default=piosenka.models._get_default_expires_on, editable=False)),
-                ('is_valid', models.BooleanField(default=True, editable=False)),
-                ('extended_by', models.ForeignKey(editable=False, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("email_address", models.EmailField(max_length=254)),
+                (
+                    "invitation_key",
+                    models.CharField(
+                        default=piosenka.models._get_default_invitation_key,
+                        editable=False,
+                        max_length=70,
+                    ),
+                ),
+                (
+                    "expires_on",
+                    models.DateTimeField(
+                        default=piosenka.models._get_default_expires_on, editable=False
+                    ),
+                ),
+                ("is_valid", models.BooleanField(default=True, editable=False)),
+                (
+                    "extended_by",
+                    models.ForeignKey(
+                        editable=False,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to=settings.AUTH_USER_MODEL,
+                    ),
+                ),
             ],
             options={
-                'permissions': [('invite', 'Can invite new contributors')],
+                "permissions": [("invite", "Can invite new contributors")],
             },
         ),
         migrations.CreateModel(
-            name='Permissions',
+            name="Permissions",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
             ],
             options={
-                'permissions': [('inspect', 'Has access to debug views.')],
-                'default_permissions': [],
+                "permissions": [("inspect", "Has access to debug views.")],
+                "default_permissions": [],
             },
         ),
     ]

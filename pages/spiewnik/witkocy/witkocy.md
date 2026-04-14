@@ -1,10 +1,10 @@
 ---
-title: 'Gitkocy'
+title: 'Witkocy'
 author: 'DX'
-pub_date: '2016-06-26 19:07:26.345218+00:00'
-image: artists/kaczmarski-cover-polonicult.png
-image_full: https://storage.googleapis.com/piosenka-media/media/artists/kaczmarski-cover-polonicult.png
-image_thumb: https://storage.googleapis.com/piosenka-media/media/artists/kaczmarski-cover-polonicult.png.0x300_q85_upscale.jpg
+pub_date: '2026-04-14 20:04.345218+00:00'
+image: https://raw.githubusercontent.com/gitkocy/gitkocypzt/refs/heads/main/fotki/szynobusy.png
+image_full: https://raw.githubusercontent.com/gitkocy/gitkocypzt/refs/heads/main/fotki/szynobusy.png
+image_thumb: https://raw.githubusercontent.com/gitkocy/gitkocypzt/refs/heads/main/fotki/szynobusy.png
 ---
 
 Poeta, autor i wykonawca blisko pięciuset piosenek, prozaik, dziennikarz.
